@@ -29,8 +29,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.852"
-     inkscape:cx="26.823282"
-     inkscape:cy="17.00561"
+     inkscape:cx="31.381487"
+     inkscape:cy="42.601683"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -61,12 +61,15 @@
      style="display:inline"
      transform="translate(0,15.345834)"
      sodipodi:insensitive="true">
-    <path
-       style="display:inline;fill:#242424;fill-opacity:1;stroke:none;stroke-width:0.0253058;filter:url(#filter4150)"
-       d="M -1.2500001e-7,-15.345834 H 12.7 V -2.645835 H -1.2500001e-7 Z"
-       id="rect3079"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+    <rect
+       style="fill:#242424;stroke:none;stroke-width:2.04467;stroke-linejoin:bevel"
+       id="rect3590"
+       width="12.7"
+       height="12.7"
+       x="9.5367433e-08"
+       y="-15.345834"
+       ry="1.394168"
+       rx="1.394168" />
   </g>
   <g
      inkscape:label="Drawing"
@@ -76,7 +79,7 @@
      style="display:inline">
     <g
        id="g3190"
-       transform="matrix(0.14191818,0,0,0.14191818,-2.903043,204.54856)">
+       transform="matrix(0.12413702,0,0,0.12413702,-1.7447038,208.42946)">
       <flowRoot
          transform="matrix(1.9332481,0,0,1.7013847,-291.51868,-86.846289)"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"

@@ -1,0 +1,16 @@
+
+body {
+  background-color: rgb(24, 24, 24);
+  background-image: url('background.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;  
+  color: white;
+  margin-left: 2em;
+}
+
+h1 {
+  font-size: 4em; 
+  margin-top: 0.5em;
+}
+
