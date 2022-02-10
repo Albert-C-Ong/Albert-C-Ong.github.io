@@ -28,11 +28,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.852"
-     inkscape:cx="31.381487"
-     inkscape:cy="42.601683"
+     inkscape:zoom="5.704"
+     inkscape:cx="44.793128"
+     inkscape:cy="27.261571"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer4"
      showgrid="false"
      units="px"
      inkscape:window-width="1306"
@@ -59,8 +59,7 @@
      id="layer4"
      inkscape:label="Background"
      style="display:inline"
-     transform="translate(0,15.345834)"
-     sodipodi:insensitive="true">
+     transform="translate(0,15.345834)">
     <rect
        style="fill:#242424;stroke:none;stroke-width:2.04467;stroke-linejoin:bevel"
        id="rect3590"
@@ -68,15 +67,16 @@
        height="12.7"
        x="9.5367433e-08"
        y="-15.345834"
-       ry="1.394168"
-       rx="1.394168" />
+       ry="6.3499999"
+       rx="6.3499999" />
   </g>
   <g
      inkscape:label="Drawing"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-230.85417)"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <g
        id="g3190"
        transform="matrix(0.12413702,0,0,0.12413702,-1.7447038,208.42946)">

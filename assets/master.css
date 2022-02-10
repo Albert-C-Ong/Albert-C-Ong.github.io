@@ -1,16 +1,95 @@
 
+@font-face {
+  font-family: "Franklin Gothic Medium";
+  src: url(FranklinGothicMedium.ttf);
+}
+
+@font-face {
+  font-family: "Franklin Gothic Regular";
+  src: url(FranklinGothicBookRegular.ttf);
+}
+
+html {
+  height: 100%;
+}
+
 body {
-  background-color: rgb(24, 24, 24);
-  background-image: url('background.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;  
+  background: rgb(24, 24, 24) url('background.png') no-repeat;
+  background-size: cover; 
   color: white;
-  margin-left: 2em;
+  font-family: Franklin Gothic Medium; 
+  overflow: auto; 
+  padding-bottom: 5em; 
+}
+
+.container {
+  width: 80%;
+  background: darkgray;
+  text-align: center; 
+}
+
+.col {
+  height: 20em;
 }
 
 h1 {
-  font-size: 4em; 
-  margin-top: 0.5em;
+  color: white; 
+  font-size: 5em; 
+  margin-top: 0.8em;
+  padding-left: 1.5em;
 }
 
+h2 {
+  text-align: center; 
+  margin-top: 8em; 
+  padding-bottom: 1em; 
+}
+
+.navbar {
+  height: 9em;
+  background: rgba(24, 24, 24, 0.75); 
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-item {
+  margin-top: 1.2em;
+  margin-left: 0.5em; 
+  font-size: 2em;
+  font-family: Franklin Gothic Regular; 
+}
+
+ul:hover {
+  color: white;
+}
+
+.lead { 
+  color: white; 
+  font-size: 2em;
+  font-family: helvetica; 
+  padding-top: 0.5em;
+  padding-left: 3.9em;
+  padding-right: 3.9em; 
+  font-family: Franklin Gothic Regular; 
+}
+
+.location {
+  font-family: Franklin Gothic Regular; 
+  font-size: 1.2em;
+  padding-left: 6.3em;
+  padding-top: 8em; 
+}
+
+.site-logo { 
+  height: 4.5em;
+  width: 4.5em;
+}
+
+strong {
+  font-weight: bold; 
+  color: white;
+}
