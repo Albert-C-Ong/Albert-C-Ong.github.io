@@ -1,12 +1,12 @@
 
 @font-face {
   font-family: "Franklin Gothic Medium";
-  src: url(FranklinGothicMedium.ttf);
+  src: url(fonts/FranklinGothicMedium.ttf);
 }
 
 @font-face {
   font-family: "Franklin Gothic Regular";
-  src: url(FranklinGothicBookRegular.ttf);
+  src: url(fonts/FranklinGothicBookRegular.ttf);
 }
 
 html {
@@ -82,6 +82,11 @@ ul:hover {
   font-size: 1.2em;
   padding-left: 6.3em;
   padding-top: 8em; 
+}
+
+.location-icon {
+  width: 1em;
+  margin-right: 0.2em;
 }
 
 .site-logo { 
