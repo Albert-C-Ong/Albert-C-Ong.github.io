@@ -16,37 +16,39 @@ html {
 body {
   background: rgb(24, 24, 24) url('background.png') no-repeat;
   background-size: cover; 
-  color: white;
+  color: darkgray;
   font-family: Franklin Gothic Medium; 
   overflow: auto; 
-  padding-bottom: 5em; 
+  padding-bottom: 10em; 
 }
 
 .container {
   width: 80%;
-  background: darkgray;
   text-align: center; 
-}
-
-.col {
-  height: 20em;
 }
 
 h1 {
   color: white; 
-  font-size: 5em; 
-  margin-top: 0.8em;
-  padding-left: 1.5em;
+  font-size: 4em; 
+}
+
+.subtitle { 
+  color: darkgrey; 
+  font-size: 1.5em;
+  font-family: helvetica; 
+  padding-top: 0.2em;
+  padding-right: 3.9em; 
+  font-family: Franklin Gothic Regular; 
 }
 
 h2 {
+  font-size: 2.5em; 
   text-align: center; 
-  margin-top: 8em; 
-  padding-bottom: 1em; 
+  margin-top: 15%; 
 }
 
 .navbar {
-  height: 9em;
+  height: 8.0em;
   background: rgba(24, 24, 24, 0.75); 
   padding-left: 2em;
   padding-right: 2em;
@@ -67,26 +69,28 @@ ul:hover {
   color: white;
 }
 
-.lead { 
-  color: white; 
-  font-size: 2em;
-  font-family: helvetica; 
-  padding-top: 0.5em;
-  padding-left: 3.9em;
-  padding-right: 3.9em; 
-  font-family: Franklin Gothic Regular; 
+.lead {
+  padding-left: 6%; 
+  padding-top: 2.5em; 
 }
 
 .location {
   font-family: Franklin Gothic Regular; 
-  font-size: 1.2em;
-  padding-left: 6.3em;
-  padding-top: 8em; 
+  font-size: 1.1em;
+  padding-top: 9.5em; 
 }
 
 .location-icon {
-  width: 1em;
-  margin-right: 0.2em;
+  width: 0.8em;
+  margin-right: 0.3em;
+}
+
+.project-image {
+  width: 100%;
+  padding-top: 2.5%; 
+  padding-bottom: 2.5%;  
+  
+  border-radius: 20em;
 }
 
 .site-logo { 
@@ -96,5 +100,7 @@ ul:hover {
 
 strong {
   font-weight: bold; 
-  color: white;
+  color: darkgray;
 }
+
+
