@@ -12,6 +12,7 @@ Created: 2022.02.04
 <title>Albert Ong</title>
 <link rel="icon" type="image/x-icon" href="assets/favicon.png">
 <link rel="stylesheet" type="text/css" href="assets/bootstrap-5.0.2/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
 <link rel="stylesheet" type="text/css" href="assets/master.css">
 </head>
 
@@ -59,16 +60,36 @@ Created: 2022.02.04
 
 <div class="container">
   <div class="row">
-    <div class="col"><img class="project-image rounded" src="assets/perspecta_01.png" alt="Perspecta"></div>
+    <div class="col">
+      
+      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img class="project-image rounded" src="assets/perspecta_01.png" alt="Perspecta">
+      </button>
+      
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/perspecta_01.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
     <div class="col"><img class="project-image rounded" src="assets/connect_four_01.png" alt="Connect Four"></div>
   </div>
 
   <div class="row">
-    <div class="col"><img class="project-image rounded" src="assets/perspecta_01.png" alt="Perspecta"></div>
-    <div class="col"><img class="project-image rounded" src="assets/perspecta_01.png" alt="Perspecta"></div>
+    <div class="col"><img class="project-image rounded" src="assets/virisol_01.png" alt="Perspecta"></div>
+    <div class="col"><img class="project-image rounded" src="assets/cosaic_01.png" alt="Perspecta"></div>
   </div>
 </div>
-
+  
 </body>
 
 </html>
