@@ -19,7 +19,6 @@ body {
   color: darkgray;
   font-family: Franklin Gothic Medium; 
   overflow: auto; 
-  padding-bottom: 10em; 
 }
 
 .container {
@@ -69,6 +68,26 @@ ul:hover {
   color: white;
 }
 
+.navbar-bottom {
+  margin-top: 3%; 
+  margin-left: auto;
+}
+
+.navbar-bottom .navbar-nav {
+  margin-top: 5em;
+}
+
+.nav-item-bottom {
+  font-family: Franklin Gothic Regular; 
+}
+
+.navbar-bottom-icon {
+  opacity: 0.6; 
+  height: 1.5em;
+  margin-left: 2.5em; 
+  margin-right: 0.5em;
+}
+
 .lead {
   padding-left: 6%; 
   padding-top: 2.5em; 
@@ -77,11 +96,11 @@ ul:hover {
 .location {
   font-family: Franklin Gothic Regular; 
   font-size: 1.1em;
-  padding-top: 9.0em; 
+  padding-top: 15%; 
 }
 
 .location-icon {
-  width: 0.8em;
+  height: 0.8em;
   margin-right: 0.3em;
 }
 
