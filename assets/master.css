@@ -21,6 +21,15 @@ body {
   overflow: auto; 
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: white;
+}
+
 .container {
   width: 65%;
   text-align: center; 
@@ -62,10 +71,6 @@ h2 {
   margin-left: 0.5em; 
   font-size: 2em;
   font-family: Franklin Gothic Regular; 
-}
-
-ul:hover {
-  color: white;
 }
 
 .navbar-bottom {
