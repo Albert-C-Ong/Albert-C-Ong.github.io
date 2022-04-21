@@ -1,34 +1,10 @@
 
-@font-face {
-  font-family: "Franklin Gothic Medium";
-  src: url(fonts/FranklinGothicMedium.ttf);
-}
+/* Written by Albert Ong
+ * 
+ * Created: 2022.02.04
+ */
 
-@font-face {
-  font-family: "Franklin Gothic Regular";
-  src: url(fonts/FranklinGothicBookRegular.ttf);
-}
-
-@font-face {
-  font-family: "Gotham Book";
-  src: url(fonts/GothamBook.ttf);
-}
-
-@font-face {
-  font-family: "Gotham Light";
-  src: url(fonts/GothamLight.ttf);
-}
-
-@font-face {
-  font-family: "Gotham Medium";
-  src: url(fonts/GothamMedium.ttf);
-}
-
-@font-face {
-  font-family: "Gotham Bold";
-  src: url(fonts/GothamBold.ttf);
-}
-
+@import url("fonts.css");
 
 
 html {
@@ -59,15 +35,15 @@ a:hover {
 
 h1 {
   color: white; 
-  font-family: Gotham Bold; 
+  font-family: Gotham Medium; 
   font-size: 4.0em; 
+  padding-bottom: 0.1em;
 }
 
 .subtitle { 
   color: darkgrey; 
   font-size: 1.5em;
   font-family: helvetica; 
-  padding-top: 0.2em;
   padding-right: 3.9em; 
   font-family: Gotham Medium; 
 }
