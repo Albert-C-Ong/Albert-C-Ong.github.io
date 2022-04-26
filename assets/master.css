@@ -1,13 +1,11 @@
 
-@font-face {
-  font-family: "Franklin Gothic Medium";
-  src: url(fonts/FranklinGothicMedium.ttf);
-}
+/* Written by Albert Ong
+ * 
+ * Created: 2022.02.04
+ */
 
-@font-face {
-  font-family: "Franklin Gothic Regular";
-  src: url(fonts/FranklinGothicBookRegular.ttf);
-}
+@import url("fonts.css");
+
 
 html {
   height: 100%;
@@ -17,7 +15,7 @@ body {
   background: rgb(24, 24, 24) url('background.png') no-repeat;
   background-size: cover; 
   color: darkgray;
-  font-family: Franklin Gothic Regular; 
+  font-family: Gotham Medium; 
   overflow: auto; 
 }
 
@@ -37,21 +35,22 @@ a:hover {
 
 h1 {
   color: white; 
-  font-family: Franklin Gothic Medium; 
-  font-size: 4em; 
+  font-family: Gotham Medium; 
+  font-size: 4.0em; 
+  padding-bottom: 0.1em;
 }
 
 .subtitle { 
   color: darkgrey; 
   font-size: 1.5em;
   font-family: helvetica; 
-  padding-top: 0.2em;
   padding-right: 3.9em; 
-  font-family: Franklin Gothic Regular; 
+  font-family: Gotham Medium; 
 }
 
 h2 {
   font-size: 2.5em; 
+  font-family: Gotham Bold; 
   text-align: center; 
   margin-top: 15%; 
 }
@@ -68,10 +67,10 @@ h2 {
 }
 
 .nav-item {
-  margin-top: 1.2em;
-  margin-left: 0.5em; 
-  font-size: 2em;
-  font-family: Franklin Gothic Regular; 
+  margin-top: 1.4em;
+  margin-left: 0.6em; 
+  font-size: 1.8em;
+  font-family: Gotham Medium; 
 }
 
 .navbar-bottom {
@@ -84,12 +83,12 @@ h2 {
 }
 
 .nav-item-bottom {
-  font-family: Franklin Gothic Regular; 
+  font-family: Gotham Medium; 
 }
 
 .navbar-bottom-icon {
   opacity: 0.6; 
-  height: 1.5em;
+  height: 1.2em;
   margin-left: 2.5em; 
   margin-right: 0.5em;
 }
@@ -100,7 +99,7 @@ h2 {
 }
 
 .location {
-  font-family: Franklin Gothic Regular; 
+  font-family: Gotham Medium; 
   font-size: 1.1em;
   padding-top: 15%; 
 }
@@ -117,11 +116,12 @@ h2 {
 }
 
 .site-logo { 
-  height: 4.5em;
-  width: 4.5em;
+  height: 5.0em;
+  width: 5.0em;
 }
 
 strong {
+  font-family: Gotham Book;
   font-weight: bold; 
   color: darkgray;
 }
