@@ -13,7 +13,7 @@ html {
 
 body {
   background: rgb(24, 24, 24) url('background.png') no-repeat;
-  background-size: cover; 
+  background-size: 100% 720px; 
   color: darkgray;
   font-family: Gotham Medium; 
   overflow: auto; 
@@ -52,7 +52,6 @@ h3 {
 }
 
 .subtitle { 
-  color: darkgrey; 
   font-size: 1.5em;
   font-family: helvetica; 
   padding-right: 3.9em; 
@@ -127,12 +126,6 @@ h3 {
   width: 5.0em;
 }
 
-strong {
-  font-family: Gotham Book;
-  font-weight: bold; 
-  color: darkgray;
-}
-
 .about-icons {
   margin-top: 1em; 
   width: 29em;
@@ -156,6 +149,7 @@ strong {
 }
 
 .project-repo-link {
+  paddin-bottom: 1.0em; 
   text-align: left; 
   color: cornflowerblue;
 }
