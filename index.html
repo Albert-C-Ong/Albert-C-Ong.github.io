@@ -58,7 +58,7 @@ Created: 2022.02.04
 <h2>PROJECTS</h2> 
 
 <div class="container">
-  <div class="row">
+  <div class="row row-cols-2">
     
     <div class="col">
       
@@ -69,7 +69,10 @@ Created: 2022.02.04
       <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="lyfestyle-label" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
           <div class="modal-content">
-            
+            <div class="modal-header">
+              <h3 class="modal-title" id="lyfestyle-label">Lyfestyle</h3>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
             <form>
               <div class="row">
                 <div class="modal-body col-sm-8 float-start">
@@ -112,14 +115,8 @@ Created: 2022.02.04
                     </button>
                   </div>
                 </div>
-                <div class="col-sm-4 float-right">
-                  <div class="modal-header">
-                    <!-- <h3 class="modal-title" id="lyfestyle-label">Lyfestyle</h3> -->
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <p class="project-description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Group project for CMPE 133: Software Engineering II.
-                  </p>
+                <div class="col-sm-4 float-right project-description">
+                  <p>Lyfestyle is a calorie tracking website that is designed to promote a healthier lifestyle by providing the tools and resources needed to manage calorie consumption and expenditure. Built using the LAMP architecture for CMPE 133: Software Engineering II.</p>
                   <a class="project-repo-link" target="_blank" href="https://github.com/Albert-C-Ong/Lyfestyle">GitHub repository</a>
                 </div>
               </div>
@@ -182,10 +179,8 @@ Created: 2022.02.04
                     </button>
                   </div>
                 </div>
-                <div class="col-sm-4 float-right">
-                  <p class="project-description">
-                    Cosaic is a social networking application that allows users to share their daily lives through online image posts.Cosaic is designed to be a fun, casual platform that allows users to share their story with the world and view the stories of others.<br>Group project for CS 157A: Introduction to Database Management Systems. 
-                  </p>
+                <div class="col-sm-4 float-right project-description">
+                  <p>Cosaic is a social networking application that allows users to share their daily lives through online image posts. Built using the LAMP architecture for CS 157A: Introduction to Database Management</p>
                   <a class="project-repo-link" target="_blank" href="https://github.com/CS-157A-Team-38/CS157A-Team-38">GitHub repository</a>
                 </div>
               </div>
@@ -196,7 +191,7 @@ Created: 2022.02.04
     </div>
   </div>
 
-  <div class="row">
+  <div class="row row-cols-2">
     <div class="col">
     
     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal-3">
@@ -248,10 +243,8 @@ Created: 2022.02.04
                     </button>
                   </div>
                 </div>
-                <div class="col-sm-4 float-right">
-                  <p class="project-description">
-                    Virisol is a web-based antivirus application that allows the users to upload a file (of any type) to check if it contains malicious content. <br>Group project for CS 147: Server-side Web Programming.
-                  </p>
+                <div class="col-sm-4 float-right project-description">
+                  <p>Virisol is a web-based antivirus application that allows the users to upload a file (of any type) to check if it contains malicious content. Built using the LAMP architecture for CS 147: Server-side Web Programming.</p>
                   <a class="project-repo-link" target="_blank" href="https://github.com/jasminemai97/virisol">GitHub repository</a>
                 </div>
               </div>
@@ -317,10 +310,8 @@ Created: 2022.02.04
                     </button>
                   </div>
                 </div>
-                <div class="col-sm-4 float-right">
-                  <p class="project-description">
-                    Connect Four is a board game where the goal is to connect four pieces in a row.<br>Group project for CS 151: Object-Oriented Design. 
-                  </p>
+                <div class="col-sm-4 float-right project-description">
+                  <p>Connect Four is a board game where the goal is to connect four pieces in a row. Supports local play and netplay across a mobile hotspot. Built using Java Swing and Eclipse for CS 151: Object-Oriented Design.</p>
                   <a class="project-repo-link" target="_blank" href="https://github.com/Albert-C-Ong/Connect-Four">GitHub repository</a>
                 </div>
               </div>
@@ -338,10 +329,10 @@ Created: 2022.02.04
 <nav class = "navbar navbar-default navbar-bottom">
   <ul class="navbar-nav list-group-horizontal">
     <li class="nav-item-bottom">
-      <a href="https://github.com/Albert-C-Ong" target="_blank"><img class="navbar-bottom-icon" src="assets/github_icon.png" alt="GitHub icon">Albert-C-Ong</a>
+      <a href="https://github.com/Albert-C-Ong" target="_blank"><img class="navbar-bottom-icon navbar-bottom-icon-link" src="assets/github_icon.png" alt="GitHub icon">Albert-C-Ong</a>
     </li>
     <li class="nav-item-bottom">
-      <a href="mailto:albert_ong_us@yahoo.com"><img class="navbar-bottom-icon" src="assets/email_icon.png" alt="email icon">albert_ong_us@yahoo.com</a>
+      <a href="mailto:albert_ong_us@yahoo.com"><img class="navbar-bottom-icon navbar-bottom-icon-link" src="assets/email_icon.png" alt="email icon">albert_ong_us@yahoo.com</a>
     </li> 
     <li class="nav-item-bottom">
       <img class="navbar-bottom-icon" src="assets/location_icon.png" alt="location icon">San Jose, CA 95132
