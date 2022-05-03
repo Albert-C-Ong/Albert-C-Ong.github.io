@@ -13,7 +13,7 @@ html {
 
 body {
   background: rgb(24, 24, 24) url('background.png') no-repeat;
-  background-size: cover; 
+  background-size: 100% 720px; 
   color: darkgray;
   font-family: Gotham Medium; 
   overflow: auto; 
@@ -29,7 +29,7 @@ a:hover {
 }
 
 .container {
-  width: 65%;
+  width: 700px;
   text-align: center; 
 }
 
@@ -40,24 +40,27 @@ h1 {
   padding-bottom: 0.1em;
 }
 
+h2 {
+  font-size: 2.5em; 
+  font-family: Gotham Bold; 
+  text-align: center; 
+  margin-top: 150px; 
+}
+
+h3 {
+  color: gray; 
+}
+
 .subtitle { 
-  color: darkgrey; 
   font-size: 1.5em;
   font-family: helvetica; 
   padding-right: 3.9em; 
   font-family: Gotham Medium; 
 }
 
-h2 {
-  font-size: 2.5em; 
-  font-family: Gotham Bold; 
-  text-align: center; 
-  margin-top: 15%; 
-}
-
 .navbar {
   height: 9.0em;
-  background: rgba(24, 24, 24, 0.75); 
+  background: rgba(24, 24, 24, 0.80); 
   padding-left: 2em;
   padding-right: 2em;
 }
@@ -71,6 +74,10 @@ h2 {
   margin-left: 0.6em; 
   font-size: 1.8em;
   font-family: Gotham Medium; 
+}
+
+.nav-link:hover {
+  color: white !important;
 }
 
 .navbar-bottom {
@@ -93,6 +100,14 @@ h2 {
   margin-right: 0.5em;
 }
 
+.nav-item-bottom:hover .navbar-bottom-icon-link {
+  opacity: 1.0;
+}
+
+.nav-item-bottom:hover a {
+  color: white;
+}
+
 .lead {
   padding-left: 6%; 
   padding-top: 2.5em; 
@@ -101,29 +116,25 @@ h2 {
 .location {
   font-family: Gotham Medium; 
   font-size: 1.1em;
-  padding-top: 15%; 
+  padding-top: 250px; 
 }
 
 .location-icon {
+  opacity: 0.6; 
   height: 0.8em;
   margin-right: 0.3em;
 }
 
 .project-image {
-  width: 100%;
-  margin-top: 1.0em; 
+  width: 19.0em;
+  height: 19.0em; 
   border-radius: 1.0em;
+  margin-top: 1.5em;
 }
 
 .site-logo { 
   height: 5.0em;
   width: 5.0em;
-}
-
-strong {
-  font-family: Gotham Book;
-  font-weight: bold; 
-  color: darkgray;
 }
 
 .about-icons {
@@ -132,7 +143,49 @@ strong {
 }
 
 .about-text {
-  font-size: 1.1em; 
+  font-size: 1.0em; 
 }
 
+.about-mail {
+  padding-top: 50px; 
+}
 
+.about-mail-link {
+  color: cornflowerblue;
+}
+
+.modal-image {
+  width: 100%;
+  object-fit: cover; 
+  text-align: center; 
+  margin: auto; 
+}
+
+.project-description {
+  padding: 2.0em; 
+  text-align: left; 
+  color: gray; 
+}
+
+.project-repo-link {
+  padding-top: 1.0em;
+  padding-bottom: 1.0em; 
+  text-align: center; 
+  color: cornflowerblue;
+}
+
+.project-repo-link:hover {
+  color: lightblue;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23AAA' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23AAA' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators .active {
+  background-color: #AAA;
+}
