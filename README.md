@@ -12,7 +12,7 @@
 **Et Cetera**
 * [Git](https://git-scm.com) // Version Control
 * [GitHub Pages](https://pages.github.com/) // Deployment
-* [Brackets](http://brackets.io/) // IDE
+* [Visual Studio Code](https://code.visualstudio.com/) // IDE
 
 ## Acknowledgement
 Created by [Albert Ong](https://github.com/Albert-C-Ong)
