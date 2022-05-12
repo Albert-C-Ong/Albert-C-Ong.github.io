@@ -110,7 +110,11 @@ h3 {
 
 .lead {
   padding-left: 6%; 
-  padding-top: 2.5em; 
+  padding-top: 50px; 
+}
+
+.about-lead {
+  padding-top: 20px;
 }
 
 .location {
