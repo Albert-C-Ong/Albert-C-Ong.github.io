@@ -1,5 +1,5 @@
 # My GitHub Page
-[albert-c-ong.ml](https://albert-c-ong.ml/)
+[albert-c-ong.github.io](https://albert-c-ong.github.io/)
 
 ## Technologies and Tools
 **Design**
