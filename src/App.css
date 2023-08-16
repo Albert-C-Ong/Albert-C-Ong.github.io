@@ -1,0 +1,28 @@
+
+@import url("fonts.css");
+
+body {
+  background: rgb(24, 24, 24);
+  font-family: Gotham Medium; 
+  color: darkgray;
+}
+
+h1 {
+  color: white;
+  font-size: 5.0em;
+}
+
+h2 {
+  font-family: Gotham Bold;
+}
+
+.navbar {
+  background-color: red;
+  height: 7.0em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.subtitle {
+  font-size: 1.7em;
+}
