@@ -6,20 +6,20 @@
 
 @font-face {
   font-family: "Gotham Book";
-  src: url(fonts/GothamBook.ttf);
+  src: url(assets/fonts/GothamBook.ttf);
 }
 
 @font-face {
   font-family: "Gotham Light";
-  src: url(fonts/GothamLight.ttf);
+  src: url(assets/fonts/GothamLight.ttf);
 }
 
 @font-face {
   font-family: "Gotham Medium";
-  src: url(fonts/GothamMedium.ttf);
+  src: url(assets/fonts/GothamMedium.ttf);
 }
 
 @font-face {
   font-family: "Gotham Bold";
-  src: url(fonts/GothamBold.ttf);
+  src: url(assets/fonts/GothamBold.ttf);
 }
