@@ -2,9 +2,18 @@
 @import url("fonts.css");
 
 body {
-  background: rgb(24, 24, 24);
+  background: rgb(24, 24, 24) url('background.png') no-repeat;
   font-family: Gotham Medium; 
   color: darkgray;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: white;
 }
 
 h1 {
@@ -14,15 +23,52 @@ h1 {
 
 h2 {
   font-family: Gotham Bold;
+  font-size: 2.5em;
+}
+
+.heading {
+  margin-left: 4.5em;
+  height: 750px;
+}
+
+.location-text {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 1.3em;
+}
+
+.mt-15 {
+  margin-top: 15rem;
 }
 
 .navbar {
-  background-color: red;
+  background: rgba(24, 24, 24, 1.0); 
   height: 7.0em;
   padding-left: 2em;
   padding-right: 2em;
 }
 
+.nav-item {
+  margin-left: 0.5em;
+  font-size: 1.8em;
+  font-family: Gotham Medium; 
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-bottom {
+  margin-top: 3%; 
+  margin-left: auto;
+}
+
+.navbar-bottom-icon {
+  height: 1.2em;
+  margin-left: 2.5em; 
+  margin-right: 0.5em;
+}
+
 .subtitle {
-  font-size: 1.7em;
+  font-size: 1.8em;
 }
