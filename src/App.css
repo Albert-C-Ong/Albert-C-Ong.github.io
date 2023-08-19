@@ -37,6 +37,10 @@ h2 {
   font-size: 1.3em;
 }
 
+Link {
+  color: red;
+}
+
 .mt-15 {
   margin-top: 15rem;
 }
@@ -59,7 +63,6 @@ h2 {
 }
 
 .navbar-bottom {
-  margin-top: 3%; 
   margin-left: auto;
 }
 
