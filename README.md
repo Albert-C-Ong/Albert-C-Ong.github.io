@@ -6,8 +6,7 @@
 * [Inkscape](https://inkscape.org/) // Art assets
 
 **Front-end**
-* HTML
-* CSS
+* [React](https://react.dev/)
 
 **Et Cetera**
 * [Git](https://git-scm.com) // Version Control

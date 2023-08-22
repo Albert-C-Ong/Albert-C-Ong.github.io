@@ -14,6 +14,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function About() {
+
+  document.title = "Albert Ong | About";
+
   return (
     <div>
       <nav class="navbar navbar-expand-sm navbar-dark">
@@ -42,17 +45,14 @@ function About() {
           <div class="">
             <h1 class="">About</h1>
             
-            <div class="about-text">
-
-              <p class="">
-              Hi, I'm a recently graduated software engineering major from San Jose State University and a 
-              hobbiest graphic designer with experience in web design and programming. 
+            <div class="fs-5">
+              Hi, I'm a software engineering major from San Jose State University and a 
+              hobbiest graphic designer with experience in web design and programming.
 
               I have most recently worked at Persepcta as a software engineer intern. I'm passionate about learning and 
-              my personal motto is that you're never too old to learn something new. Other interests of mine include reading, gaming, and making memes. 
-              </p>
+              my personal motto is that you're never too old to learn something new. Other interests of mine include reading, gaming, and memeing. 
 
-              <p class="about-mail">For inquiries, contact <a class="about-mail-link" href="mailto:albert_ong_us@yahoo.com">albert_ong_us@yahoo.com</a></p>
+              <p class="mt-5">For inquiries, contact <a style={{color: 'cornflowerblue'}} href="mailto:albert_ong_us@yahoo.com">albert_ong_us@yahoo.com</a></p>
             </div>
           </div>
         </div>
@@ -61,8 +61,8 @@ function About() {
         </div>
       </div>
 
-      <nav class = "navbar navbar-default navbar-bottom mt-5">
-        <ul class="navbar-nav list-group-horizontal">
+      <nav class = "navbar navbar-default navbar-bottom mt-10">
+        <ul class="navbar-nav list-group-horizontal mt-5">
           <li>
             <a href="https://github.com/Albert-C-Ong" target="_blank"><img class="navbar-bottom-icon navbar-bottom-icon-link" src={github_icon} alt="GitHub icon"/>Albert-C-Ong</a>
           </li>
@@ -70,7 +70,7 @@ function About() {
             <a href="mailto:albert_ong_us@yahoo.com"><img class="navbar-bottom-icon navbar-bottom-icon-link" src={email_icon} alt="email icon"/>albert_ong_us@yahoo.com</a>
           </li> 
           <li>
-            <img class="navbar-bottom-icon" src={location_icon} alt="location icon"/>San Jose, CA 95132
+            <img class="navbar-bottom-icon" src={location_icon} alt="location icon"/>San Jose, CA
           </li>
         </ul>
       </nav>

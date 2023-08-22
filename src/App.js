@@ -13,9 +13,6 @@ import About from './About';
 
 
 function App() {
-
-  document.title = 'Albert Ong';
-
   return (
     <Router>
       <Routes>
