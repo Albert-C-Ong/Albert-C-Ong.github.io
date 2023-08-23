@@ -3,6 +3,8 @@
 
 body {
   background: rgb(24, 24, 24) url('background.png') no-repeat;
+  background-size: cover;
+  background-position: center top; 
   font-family: Gotham Medium; 
   color: darkgray;
 }
@@ -35,10 +37,6 @@ h2 {
   display: inline-block;
   margin-left: 10px;
   font-size: 1.3em;
-}
-
-Link {
-  color: red;
 }
 
 .mt-10 {
@@ -74,8 +72,4 @@ Link {
   height: 1.2em;
   margin-left: 2.5em; 
   margin-right: 0.5em;
-}
-
-.subtitle {
-  font-size: 1.8em;
 }

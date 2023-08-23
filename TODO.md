@@ -1,5 +1,4 @@
 ## TODO
-* Separate navbars into component files
 * Launch react on the main branch
 * Get site working in docker
 * Redesign background, or investigate why gradients are not rendering correctly
