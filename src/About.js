@@ -4,13 +4,9 @@ Written by Albert Ong
 Created: 2023.08.18
 */
 
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
-// import site_logo from "./assets/site_logo.png";
-import location_icon from "./assets/location_icon.png";
-import github_icon from "./assets/github_icon.png";
-import email_icon from "./assets/email_icon.png";
+import React from "react";
 import about_icons from "./assets/about.png";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from './Navbar';
 import BottomNavbar from './BottomNavbar';
 

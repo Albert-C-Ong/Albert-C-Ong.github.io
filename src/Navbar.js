@@ -4,8 +4,8 @@ Written by Albert Ong
 Created: 2023.08.23
 */
 
-import React from 'react';
-import {BrowserRouter as Route, Link} from 'react-router-dom';
+import React from "react";
+import {BrowserRouter as Route, Link} from "react-router-dom";
 import site_logo from "./assets/site_logo.png";
 import profile_icon from "./assets/profile_icon.png";
 
