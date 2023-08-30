@@ -15,11 +15,7 @@ const Home = () => {
   document.title = "Albert Ong";
 
   return (
-    <div 
-      style={{
-        backgroundImage: "url(${background})",
-      }}
-    >
+    <div>
       <Navbar/>
 
       <div class="heading">

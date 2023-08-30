@@ -1,8 +1,8 @@
 ## TODO
-* Launch react on the main branch
 * Get site working in docker
-* Redesign background, or investigate why gradients are not rendering correctly
+* Fix background scaling on zoom (set height limit on zoom out)
 * Optional: 
-  * retain hover effects in bottom navbar
   * add fade in animations again (fade in on about text, fade down on home heading)
 * Add project images to homepage
+* Fix mobile view
+* Finish linkedin profile, add to navbar
