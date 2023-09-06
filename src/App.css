@@ -30,6 +30,10 @@ a:hover {
   color: white;
 }
 
+.modal-title a:hover {
+  color: black;
+}
+
 .black {
   color: black;
 }

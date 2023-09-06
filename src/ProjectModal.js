@@ -29,24 +29,27 @@ function ProjectModal({show, onHide, index}) {
       title: "Lyfestyle",
       description: "Calorie tracking site created in a team of three for CMPE 133: Software Engineering II. Allows user to create a profile, login, and track the amount of calories they can consumed and burned over time.", 
       images: [lyfestyle_1, lyfestyle_2, lyfestyle_3], 
-      link: ""
+      link: "https://github.com/Albert-C-Ong/Lyfestyle"
     }, 
     {
       title: "Cosaic",
-      description: "Image sharing website created in a team of three for CS 157A: Introduction to Databse Management Systems",
-      images: [cosaic_1, cosaic_2, cosaic_3]
+      description: "Image sharing website created for CS 157A: Introduction to Database Management Systems. Allows users to upload and share images to their profiles as well as update their status, post pictures, and add captions and hashtags.",
+      images: [cosaic_1, cosaic_2, cosaic_3],
+      link: "https://github.com/CS-157A-Team-38/CS157A-Team-38"
     },
     {
       title: "Cantonese Vocabulary Table",
-      description: "Personal vocabulary table that was developed for myself over the course of five years while learning Cantonese. Table currently features approximately 3,000 words across over 100 categories. Most recently added a search page to more quickly browse which words are already in the database.",
+      description: "Personal vocabulary table that was developed over the course of five years while learning Cantonese. Table currently features approximately 3,000 words across over 100 categories. Most recently added a search page to lookup which words are already in the database.",
       images: [cantonese_vocabulary_table_1, 
                cantonese_vocabulary_table_2, 
-               cantonese_vocabulary_table_3]
+               cantonese_vocabulary_table_3],
+      link: "https://github.com/Albert-C-Ong/Cantonese-Vocabulary-Table"
     },
     {
       title: "Virisol",
-      description: "Virus detector",
-      images: [virisol_1, virisol_2, virisol_3, virisol_4]
+      description: "Virus detection website created for CS 174: Server-side Web Programing. Allows users to upload files and detect the presence of a known virus.",
+      images: [virisol_1, virisol_2, virisol_3, virisol_4],
+      link: "https://github.com/Albert-C-Ong/virisol"
     }
   ];
 
@@ -55,7 +58,23 @@ function ProjectModal({show, onHide, index}) {
   return (
     <Modal show={show} onHide={onHide} size="lg">
       <Modal.Header closeButton>
-        <Modal.Title class="fs-4 black">{carouselData["title"]}</Modal.Title>
+        <Modal.Title class="modal-title fs-4 black">
+          <img 
+            class="navbar-bottom-icon navbar-bottom-icon-link mb-1" 
+            src={github_icon} 
+            alt="GitHub icon"
+            style={{marginLeft: "0px"}}
+          />
+          <a 
+            class="cornflowerblue" 
+            href={carouselData["link"]}
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={{textDecoration: "underline"}}
+          >
+            {carouselData["title"]}
+          </a>
+        </Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <Carousel>
@@ -67,13 +86,7 @@ function ProjectModal({show, onHide, index}) {
         </Carousel>
       </Modal.Body>
       <Modal.Footer class="text-align-right m-3">
-        <p style={{color: "black"}}>{carouselData["description"]}</p>
-        <img 
-          class="navbar-bottom-icon navbar-bottom-icon-link" 
-          src={github_icon} 
-          alt="GitHub icon"
-        />
-        <a class="black" href="https://github.com/Albert-C-Ong/Cantonese-Vocabulary-Table" target="_blank" rel="noopener noreferrer">Github</a>
+        <p style={{color: "dimgray"}}>{carouselData["description"]}</p>
       </Modal.Footer>
     </Modal>
   );
