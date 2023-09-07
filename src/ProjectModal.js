@@ -4,8 +4,8 @@ Written by Albert Ong
 Created: 2023.09.01
 */
 
-import React, { useState } from 'react';
-import { Modal, Button, Carousel} from 'react-bootstrap';
+import React from 'react';
+import { Modal, Carousel} from 'react-bootstrap';
 import github_icon from "./assets/github_icon.png";
 import cantonese_vocabulary_table_1 from "./assets/project images/cantonese_vocabulary_table_1.png";
 import cantonese_vocabulary_table_2 from "./assets/project images/cantonese_vocabulary_table_2.png";
@@ -78,7 +78,7 @@ function ProjectModal({show, onHide, index}) {
       </Modal.Header>
       <Modal.Body>
         <Carousel>
-          {carouselData["images"].map((image) => (
+          {carouselData["images"].map((image, index) => (
             <Carousel.Item>
               <img className="w-100" src={image}/>
             </Carousel.Item>

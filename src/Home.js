@@ -5,7 +5,6 @@ Created: 2023.08.18
 */
 
 import React, {useState} from "react";
-import { Modal } from "react-bootstrap";
 import location_icon from "./assets/location_icon.png";
 import cantonese_vocabulary_table_1 from "./assets/project images/cantonese_vocabulary_table_1.png";
 import cosaic_1 from "./assets/project images/cosaic_1.png";
@@ -42,11 +41,12 @@ const Home = () => {
     <div>
       <Navbar/>
 
-      <div class="heading">
+      <div class="heading ms-5">
         <h1 class="pt-5">Hi, I'm Albert!</h1>
         <p class="fs-2 mt-2">I'm a software engineer and hobbiest graphic designer.</p>
         <div class="mt-15">
-          <img src={location_icon} alt="location" height="20px"/><p class="location-text">San Francisco Bay Area</p>
+          <img src={location_icon} alt="location" height="20px"/>
+          <p class="location-text ms-2 fs-5">San Francisco Bay Area</p>
         </div>
       </div>
       

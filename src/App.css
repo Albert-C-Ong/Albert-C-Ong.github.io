@@ -21,6 +21,11 @@ body::before {
   max-height: 720px;
 }
 
+/* .about-icons {
+  height: 420px;
+  max-height: 20%;
+} */
+
 a {
   color: inherit;
   text-decoration: inherit;
@@ -53,18 +58,19 @@ h2 {
 }
 
 .heading {
-  margin-left: 4.5em;
   height: 650px;
 }
 
 .location-text {
   display: inline-block;
-  margin-left: 10px;
-  font-size: 1.3em;
 }
 
 .modal-title {
   color: black;
+}
+
+.mt-6 {
+  margin-top: 7rem;
 }
 
 .mt-10 {

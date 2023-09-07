@@ -21,7 +21,7 @@ function About() {
 
       <div class="modal-body row m-5">
         <div class="col-md-6">
-            <h1 class="">About</h1>
+            <h1>About</h1>
             
             <div class="fs-5">
               Hi, I'm a software engineering major from San Jose State University and a 
@@ -34,7 +34,7 @@ function About() {
             </div>
         </div>
         <div class="col-md-6 text-center">
-          <img src={about_icons} alt="about icons" height="60%"/>
+          <img src={about_icons} alt="about icons" height="420px"/>
         </div>
       </div>
 
