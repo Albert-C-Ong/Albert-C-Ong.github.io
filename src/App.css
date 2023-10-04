@@ -1,5 +1,12 @@
+/*
+Written by Albert Ong
+
+Created: 2023.09.06
+*/
 
 @import url("fonts.css");
+@import url("mobile.css");
+
 
 body {
   background: rgb(24, 24, 24);
@@ -20,11 +27,6 @@ body::before {
   z-index: -1; 
   max-height: 720px;
 }
-
-/* .about-icons {
-  height: 420px;
-  max-height: 20%;
-} */
 
 a {
   color: inherit;
@@ -50,6 +52,7 @@ a:hover {
 h1 {
   color: white;
   font-size: 5.0em;
+  margin-top: 3.0rem;
 }
 
 h2 {
@@ -58,11 +61,21 @@ h2 {
 }
 
 .heading {
+  margin-left: 3.0rem;
   height: 650px;
+}
+
+.subtitle {
+  font-size: 2.0rem;
+}
+
+.location {
+  margin-top: 15rem;
 }
 
 .location-text {
   display: inline-block;
+  font-size: 1.5rem;
 }
 
 .modal-title {
@@ -76,11 +89,7 @@ h2 {
 .mt-10 {
   margin-top: 10rem;
 }
-
-.mt-15 {
-  margin-top: 15rem;
-}
-
+  
 .navbar {
   background: rgba(24, 24, 24, 1.0); 
   height: 7.0em;
@@ -92,6 +101,14 @@ h2 {
   margin-left: 0.5em;
   font-size: 1.8em;
   font-family: Gotham Medium; 
+}
+
+.nav-link {
+  color:darkgray;
+}
+
+.nav-link:hover {
+  color:white;
 }
 
 .navbar-nav {
@@ -108,9 +125,132 @@ h2 {
   margin-right: 0.5em;
 }
 
+.navbar-collapse {
+  background-color: rgba(24, 24, 24);
+}
+
+.navbar-toggle {
+  background-color: darkgray;
+  border-color: darkgray;
+  color: darkgray;
+}
+
+.profile-icon {
+  height: 60px;
+  margin-top: 0.75rem;
+  margin-left: 25px;
+}
+
+.projects {
+  width: 600px;
+}
+
 .project-image {
   height: 275px;
   width: 275px;
   overflow: hidden;
   object-fit: cover;
+}
+
+.site-logo {
+  height: 80px;
+}
+
+.about-modal {
+  margin: 3rem;
+}
+
+.about-text {
+  font-size: 1.25rem;
+}
+
+/* =========================================================== */
+
+@media (orientation: portrait) {
+
+  body::before {
+    max-height: 450px;
+  }
+
+  h1 {
+    font-size: 3.0em;
+    margin-top: 2.0rem;
+  }
+
+  h2 {
+    font-size: 2.0rem;
+  }
+
+  .heading {
+    height: 450px;
+    margin-left: 1.0rem;
+    margin-right: 1.0rem;
+  }
+
+  .subtitle {
+    font-size: 1.3rem;
+  }
+
+  .list-group-horizontal {
+    flex-direction: column;
+  }
+
+  .location {
+    margin-top: 7.0em;
+  }
+
+  .location-text {
+    font-size: 1.2em;
+  }
+
+  .navbar {
+    height: 5.0em;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .navbar-nav {
+    margin-left: 0px;
+    margin-right: auto;
+  }
+
+  .navbar-bottom-icon {
+    margin-left: 0px;
+  }
+
+  .navbar-bottom li {
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+
+  .profile-icon {
+    height: 40px;
+  }
+
+  .projects {
+    width: 90%;
+  }
+
+  .project-image {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  .site-logo {
+    height: 50px;
+  }
+
+  .about-modal {
+    margin: 1rem;
+  }
+
+  .about-icons {
+    margin-top: 5rem;
+  }
+
+  .about-text {
+    font-size: 0.9rem;
+  }
 }

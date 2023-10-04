@@ -19,11 +19,11 @@ function About() {
     <div>
       <Navbar/>
 
-      <div class="modal-body row m-5">
+      <div class="about-modal modal-body row">
         <div class="col-md-6">
-            <h1>About</h1>
+            <h1 class="mt-1">About</h1>
             
-            <div class="fs-5">
+            <div class="about-text">
               Hi, I'm a software engineering major from San Jose State University and a 
               hobbiest graphic designer with experience in web design and programming.
 
@@ -34,7 +34,7 @@ function About() {
             </div>
         </div>
         <div class="col-md-6 text-center">
-          <img src={about_icons} alt="about icons" height="420px"/>
+          <img class="about-icons" src={about_icons} alt="about icons" height="420px"/>
         </div>
       </div>
 

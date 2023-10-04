@@ -38,7 +38,7 @@ const BottomNavbar = () => {
 
 
   return (
-    <nav class = "navbar navbar-default navbar-bottom">
+    <nav class="navbar navbar-default navbar-bottom">
       <ul class="navbar-nav list-group-horizontal mt-5">
         <li 
           onMouseEnter={handleGithubHover}

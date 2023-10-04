@@ -7,6 +7,7 @@ Created: 2023.08.18
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './App.css';
 import Home from './Home';
 import About from './About';

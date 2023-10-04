@@ -10,7 +10,7 @@ import cantonese_vocabulary_table_1 from "./assets/project images/cantonese_voca
 import cosaic_1 from "./assets/project images/cosaic_1.png";
 import lyfestyle_1 from "./assets/project images/lyfestyle_1.png";
 import virisol_1 from "./assets/project images/virisol_1.png";
-import Navbar from './Navbar';
+import TopNavbar from './Navbar';
 import BottomNavbar from './BottomNavbar';
 import ProjectModal from './ProjectModal';
 
@@ -39,19 +39,19 @@ const Home = () => {
 
   return (
     <div>
-      <Navbar/>
+      <TopNavbar/>
 
-      <div class="heading ms-5">
-        <h1 class="pt-5">Hi, I'm Albert!</h1>
-        <p class="fs-2 mt-2">I'm a software engineer and hobbiest graphic designer.</p>
-        <div class="mt-15">
+      <div class="heading">
+        <h1>Hi, I'm Albert!</h1>
+        <p class="subtitle mt-2">I'm a software engineer and hobbiest graphic designer.</p>
+        <div class="location">
           <img src={location_icon} alt="location" height="20px"/>
-          <p class="location-text ms-2 fs-5">San Francisco Bay Area</p>
+          <p class="location-text ms-2">San Francisco Bay Area</p>
         </div>
       </div>
       
       <h2 class="text-center mb-3">PROJECTS</h2>
-      <div style={{width: "600px"}} class="container text-center mb-5">
+      <div class="projects container text-center mb-5">
         <div class="row">
           <div class="col-md-6">
             <img 
