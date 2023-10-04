@@ -56,7 +56,7 @@ function ProjectModal({show, onHide, index}) {
   const carouselData = carouselDataList[index];
 
   return (
-    <Modal show={show} onHide={onHide} size="lg">
+    <Modal show={show} onHide={onHide} size="lg" centered>
       <Modal.Header closeButton>
         <Modal.Title class="modal-title fs-4 black">
           <img 

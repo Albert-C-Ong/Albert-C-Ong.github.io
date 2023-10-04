@@ -5,7 +5,7 @@ Created: 2023.08.23
 */
 
 import React from "react";
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav} from 'react-bootstrap';
 import {BrowserRouter as Route, Link} from "react-router-dom";
 import site_logo from "./assets/site_logo.png";
 import profile_icon from "./assets/profile_icon.png";
@@ -27,40 +27,18 @@ const TopNavbar = () => {
             </Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="https://drive.google.com/file/d/1XkxYo9yhDb0Qbjila_askLa7Iq6TAiEV/view?usp=sharing" target="_blank" rel="noreferrer noopener">
+            <Nav.Link class="nav-link" href="https://drive.google.com/file/d/1XkxYo9yhDb0Qbjila_askLa7Iq6TAiEV/view?usp=sharing" target="_blank" rel="noreferrer noopener">
               RESUME
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="mailto:albert_ong_us@yahoo.com">CONTACT</Nav.Link>
+            <Nav.Link class="nav-link" href="mailto:albert_ong_us@yahoo.com">CONTACT</Nav.Link>
           </Nav.Item>
         </Nav>
         
       </Navbar.Collapse>
       {/* <img class="profile-icon ml-3" src={profile_icon} alt="profile"/> */}
     </Navbar>
-    
-    // <nav class="navbar navbar-expand-sm navbar-dark">
-    //   <div class="container-fluid">
-    //     <Link to="/home">
-    //       <img class="site-logo" src={site_logo} alt="logo"/>
-    //     </Link>
-    //     <div class="collapse navbar-collapse">
-    //       <ul class="navbar-nav mt-5">
-    //         <li class="nav-item mt-2">
-    //           <Link to="/about">ABOUT</Link>
-    //         </li>
-    //         <li class="nav-item">
-    //           <a class="nav-link" href="https://drive.google.com/file/d/1XkxYo9yhDb0Qbjila_askLa7Iq6TAiEV/view?usp=sharing" target="_blank" rel="noreferrer noopener">RESUME</a>
-    //         </li>
-    //         <li class="nav-item">
-    //           <a class="nav-link" href="mailto:albert_ong_us@yahoo.com">CONTACT</a>
-    //         </li>
-    //       </ul>
-    //     </div>
-    //     <img class="profile-icon ml-3" src={profile_icon} alt="profile"/>
-    //   </div>
-    // </nav>
   );
 };
 

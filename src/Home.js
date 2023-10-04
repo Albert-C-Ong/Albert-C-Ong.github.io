@@ -64,10 +64,11 @@ const Home = () => {
             <ProjectModal
               show={showModal1}
               onHide={handleClose1}
+              class="project-modal"
               index="0"
             />
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 project-image-margin">
             <img 
               class="project-image rounded" 
               src={cosaic_1} 
@@ -97,7 +98,7 @@ const Home = () => {
               index="2"
             />
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 project-image-margin">
             <img 
               class="project-image rounded" 
               src={virisol_1} 

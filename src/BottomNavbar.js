@@ -38,11 +38,12 @@ const BottomNavbar = () => {
 
 
   return (
-    <nav class="navbar navbar-default navbar-bottom">
+    <nav class="navbar navbar-default ms-3 mt-5">
       <ul class="navbar-nav list-group-horizontal mt-5">
         <li 
           onMouseEnter={handleGithubHover}
           onMouseLeave={handleGithubMouseLeave}
+          class="ms-1 navbar-bottom-li"
         >
           <a href="https://github.com/Albert-C-Ong" target="_blank" rel="noopener noreferrer">
             <img 
@@ -56,6 +57,7 @@ const BottomNavbar = () => {
         <li 
           onMouseEnter={handleEmailHover}
           onMouseLeave={handleEmailMouseLeave}
+          class="ms-1 navbar-bottom-li"
         >
           <a href="mailto:albert_ong_us@yahoo.com">
             <img 
@@ -66,7 +68,7 @@ const BottomNavbar = () => {
             albert_ong_us@yahoo.com
           </a>
         </li> 
-        <li>
+        <li class="ms-1 navbar-bottom-li">
           <img 
             class="navbar-bottom-icon" 
             src={location_icon} 
